@@ -49,6 +49,7 @@
   programs.home-manager.enable = true;
 
   imports = [
+    ./modules/env
     ./modules/zsh
     ./modules/git
     ./modules/go-task
