@@ -51,5 +51,6 @@
   imports = [
     ./modules/git
     ./modules/go-task
+    ./modules/zellij
   ];
 }
