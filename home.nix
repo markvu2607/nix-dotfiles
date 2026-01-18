@@ -59,5 +59,6 @@
     ./modules/fzf
     ./modules/starship
     ./modules/zoxide
+    ./modules/direnv
   ];
 }
