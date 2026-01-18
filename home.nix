@@ -49,10 +49,14 @@
   programs.home-manager.enable = true;
 
   imports = [
+    ./modules/zsh
     ./modules/git
     ./modules/go-task
     ./modules/zellij
     ./modules/alacritty
     ./modules/bat
+    ./modules/fzf
+    ./modules/starship
+    ./modules/zoxide
   ];
 }
