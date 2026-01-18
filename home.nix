@@ -52,5 +52,6 @@
     ./modules/git
     ./modules/go-task
     ./modules/zellij
+    ./modules/alacritty
   ];
 }
