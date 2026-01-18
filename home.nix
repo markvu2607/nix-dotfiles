@@ -53,5 +53,6 @@
     ./modules/go-task
     ./modules/zellij
     ./modules/alacritty
+    ./modules/bat
   ];
 }
