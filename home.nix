@@ -50,5 +50,6 @@
 
   imports = [
     ./modules/git
+    ./modules/go-task
   ];
 }
