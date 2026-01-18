@@ -60,5 +60,6 @@
     ./modules/starship
     ./modules/zoxide
     ./modules/direnv
+    ./modules/podman
   ];
 }
