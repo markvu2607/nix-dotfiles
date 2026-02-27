@@ -17,6 +17,11 @@
 
   # Init scripts for shell
   programs.zsh.initContent = ''
+    # Source Nix daemon profile
+    if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+      . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+    fi
+
     # Set NDK_HOME dynamically
     if [ -d "$ANDROID_HOME/ndk" ]; then
       export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 "$ANDROID_HOME/ndk" | tail -n 1)"
