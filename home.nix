@@ -61,5 +61,6 @@
     ./modules/zoxide
     ./modules/direnv
     ./modules/podman
+    ./modules/helix
   ];
 }
