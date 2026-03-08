@@ -62,5 +62,6 @@
     ./modules/direnv
     ./modules/podman
     ./modules/helix
+    ./modules/infisical
   ];
 }
